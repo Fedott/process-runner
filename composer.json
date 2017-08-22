@@ -1,0 +1,23 @@
+{
+    "name": "fedot/process-runner",
+    "description": "Process runner with wait some text on output",
+    "type": "library",
+    "require": {
+        "amphp/process": "^0.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fedot",
+            "email": "fedotru@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fedot\\ProcessRunner\\": "src/"
+        }
+    }
+}
