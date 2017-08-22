@@ -40,7 +40,6 @@ class Runner
     {
         wait(call(function (Process $process) {
             $startTime = time();
-            $process->start();
 
             $stream = $process->getStdout();
             $output = '';
